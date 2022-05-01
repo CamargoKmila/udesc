@@ -10,5 +10,6 @@ int main()
   scanf("%f", &n);                                                                                                                                                                                                 
   n = n/10;                                                                                                                                                                                                        
   printf("O numero dividido por 10 é: %.1f \n",n);                                                                                                                                                                 
+    
     return 0;                                                                                                                                                                                                      
 } 

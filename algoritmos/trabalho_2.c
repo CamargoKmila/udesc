@@ -56,5 +56,6 @@ int main() {
     scanf("%s", continuar);
     test = strcmp("sim", continuar);
   }
+  
   return 0;
 }

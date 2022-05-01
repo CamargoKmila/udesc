@@ -12,5 +12,6 @@ int main()
             if (i%j ==0) {teste =1;}}                                                                                                                                                                              
             if (teste ==0) {printf("O numero %d é primo \n",i);}                                                                                                                                                   
     }                                                                                                                                                                                                              
+    
     return 0;                                                                                                                                                                                                      
 }                             

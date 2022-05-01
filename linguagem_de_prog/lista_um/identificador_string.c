@@ -11,5 +11,6 @@ int main()
     c = str[0];                                                                                                                                                                                                    
   printf("%d \n",c);                                                                                                                                                                                               
   if (c>=48 && c<=57) {printf("A String começa com numero");} else {printf("A String começa com letra");}                                                                                                          
+    
     return 0;                                                                                                                                                                                                      
 }                  
