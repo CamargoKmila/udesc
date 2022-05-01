@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#define ATTEMPT 5
-
 int main() {
   printf("******************************************\n");
   printf("* Bem vindo ao nosso jogo de adivinhação *\n");
@@ -9,29 +7,29 @@ int main() {
 
   int secret_number = 42;
   int guess;
+  int win = 0;
+  int attempt  = 0;
+  int point = 1000;
 
-  for(int counter = 1; counter <= ATTEMPT; counter++){
-
-    printf("Tentativa %d de %d\n", counter, ATTEMPT);
+  while(win == 0) {
+    printf("Tentativa %d\n", attempt+1);
     printf("Qual é o seu palpite? \n");
     scanf("%d", &guess);
     printf("Seu palpite foi %d\n", guess);
 
     if(guess < 0) {
       printf("Você não pode escolher um número negativo.\n");
-      counter--;
-
+      
       continue;
     }
 
     int correct = (guess == secret_number);
     int larger = (guess > secret_number);
-    int smaller = (guess < secret_number);
 
     if(correct) {
       printf("Parabéns! Você acertou!!!\n");
 
-      break;
+      win = 1;
     }
 
       else if(larger) {
@@ -41,12 +39,15 @@ int main() {
       else {
         printf("Seu palpite foi menor que o número secreto.\n");
       }
+      attempt++;
+
       printf("Você errou!\n");
   }
 
-  printf("*****************\n");
-  printf("** Fim de jogo **\n");
-  printf("*****************\n");
+  printf("************************************\n");
+  printf("************ Fim de jogo ***********\n");
+  printf("** Você acertou em %d tentativas! **\n", attempt);
+  printf("************************************\n");
   // printf("O número secreto é o %d.\n", secret_number);
 
 }
