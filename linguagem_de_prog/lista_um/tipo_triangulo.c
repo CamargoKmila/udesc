@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 //Criar um programa que os tres ángulos internos de um triángulo e determine o tipo de triángulo                                                                                                                   
 //equilatero, isoseles, escaleno, rectangulo.                                                                                                                                                                      

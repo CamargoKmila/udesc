@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
 
 //Escrever um programa que, para n>0, calcule: Somatória (i*(i+1))                                                                                                                                                 
                                                                                                                                                                                                                 

@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 
 //Escrever um programa que some todos los números pares entre N e M onde N e M são digitados pelo usuario                                                                                                          
                                                                                                                                                                                                                  
