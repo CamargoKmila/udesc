@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 
 //Criar um programa que determine se uma string digitada pelo usuario começa com um número ou com uma letra.                                                                                                       
                                                                                                                                                                                                                  

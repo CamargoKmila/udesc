@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 
 //Escrever um programa utilize dois ciclos for para encontrar os numeros primos entre 2 e 100                                                                                                                      
                                                                                                                                                                                                                  

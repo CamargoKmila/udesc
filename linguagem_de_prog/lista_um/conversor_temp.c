@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 
 //Criar um programa onde o usuário digite a temperatura em Celsius e o programa                                                                                                                                    
 //mostre em Fahrenheit e Kelvin;                                                                                                                                                                                   

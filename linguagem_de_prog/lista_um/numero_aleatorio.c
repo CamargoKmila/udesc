@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <iostream>
 
 //Criar um programa que gere um numero aleaotrio inteiro entre 1 e 10. Depois usuario                                                                                                                              
 //tentara adivinhar o número. As seguintes mensagens devem ser mostrdas de acordo ao numero inserido:                                                                                                              

@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
 
 //Criar um programa que mostre todos os números de 1 a n incrementando de 2 em 2.                                                                                                                                  
 //n é digitado pelo usuario.                                                                                                                                                                                       
