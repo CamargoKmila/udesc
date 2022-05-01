@@ -32,12 +32,12 @@ int main ()
   printf("Horario de pico (S/N)?\n");
   scanf("%s", &pico);
   
-    valor = (man/10)*6;
+  valor = (man/10)*6;
   if (pico == 's') {valor = valor+5;};
   
   printf("o valor final pela distancia manhattan é de: %f \n", valor);
   
-    valor = (euc/10)*6;
+  valor = (euc/10)*6;
   if (pico == 's') {valor = valor+5;};
   
   printf("o valor final pela distancia euclidiana é de: %f \n", valor);

@@ -6,7 +6,8 @@
 int main()                                                                                                                                                                                                         
 {                                                                                                                                                                                                                  
     float n;                                                                                                                                                                                                       
-    printf("Qual o numero desejado?\n");                                                                                                                                                                           
+    
+  printf("Qual o numero desejado?\n");                                                                                                                                                                           
   scanf("%f", &n);                                                                                                                                                                                                 
   n = n/10;                                                                                                                                                                                                        
   printf("O numero dividido por 10 é: %.1f \n",n);                                                                                                                                                                 

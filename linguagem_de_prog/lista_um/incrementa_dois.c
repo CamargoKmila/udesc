@@ -5,11 +5,12 @@
                                                                                                                                                                                                                  
 int main()                                                                                                                                                                                                         
 {                                                                                                                                                                                                                  
-    int i,n;                                                                                                                                                                                                       
-    printf("Qual o valor de n? \n");                                                                                                                                                                               
-    scanf("%d", &n);                                                                                                                                                                                               
-    for (i=1;i<=n;i+=2) {                                                                                                                                                                                          
-        printf("\n %d",i);}                                                                                                                                                                                        
-                                                                                                                                                                                                                   
-    return 0;                                                                                                                                                                                                      
+  int i,n;                                                                                                                                                                                                       
+  
+  printf("Qual o valor de n? \n");                                                                                                                                                                               
+  scanf("%d", &n);                                                                                                                                                                                               
+  for (i=1;i<=n;i+=2) {                                                                                                                                                                                          
+    printf("\n %d",i);}                                                                                                                                                                                        
+                                                                                                                                                                                                                  
+  return 0;                                                                                                                                                                                                      
 }                 

@@ -28,6 +28,5 @@ int main ()
   desvio = sqrt((pow((x1 - media),2) + pow((x2 - media),2) + pow((x3 - media),2) + pow((x4 - media),2) + pow((x5 - media),2))/5);
   printf("O desvio padrao e de: %f \n",desvio);
   
-  
   return 0;
 }

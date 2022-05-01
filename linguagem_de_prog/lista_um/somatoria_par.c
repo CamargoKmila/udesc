@@ -7,18 +7,19 @@
                                                                                                                                                                                                                  
 int main()                                                                                                                                                                                                         
 {                                                                                                                                                                                                                  
-    int n,m,i,soma=0;                                                                                                                                                                                              
-    printf("Qual o numero N? \n");                                                                                                                                                                                 
-    scanf("%d", &n);                                                                                                                                                                                               
-    printf("Qual o numero M? \n");                                                                                                                                                                                 
-    scanf("%d", &m);                                                                                                                                                                                               
-                                                                                                                                                                                                                   
-    for (i=n;i<=m;i++) {                                                                                                                                                                                           
-        if (i%2 == 0) {                                                                                                                                                                                            
-            soma = soma+i;}                                                                                                                                                                                        
-        printf("i: %d \nsoma: %d \n",i,soma);                                                                                                                                                                      
-    }                                                                                                                                                                                                              
-    printf("A soma total é %d \n",soma);                                                                                                                                                                           
-                                                                                                                                                                                                                   
-    return 0;                                                                                                                                                                                                      
+  int n,m,i,soma=0;                                                                                                                                                                                              
+  
+  printf("Qual o numero N? \n");                                                                                                                                                                                 
+  scanf("%d", &n);                                                                                                                                                                                               
+  printf("Qual o numero M? \n");                                                                                                                                                                                 
+  scanf("%d", &m);                                                                                                                                                                                               
+                                                                                                                                                                                                                  
+  for (i=n;i<=m;i++) {                                                                                                                                                                                           
+    if (i%2 == 0) {                                                                                                                                                                                            
+      soma = soma+i;}                                                                                                                                                                                        
+    printf("i: %d \nsoma: %d \n",i,soma);                                                                                                                                                                      
+  }                                                                                                                                                                                                              
+  printf("A soma total é %d \n",soma);                                                                                                                                                                           
+                                                                                                                                                                                                                  
+  return 0;                                                                                                                                                                                                      
 }               
