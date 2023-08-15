@@ -1,0 +1,1 @@
+// Crie um programa que crie um ponteiro para uma struct utilizando typedef

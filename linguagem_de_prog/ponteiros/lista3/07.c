@@ -1,0 +1,1 @@
+// crie um programa que crie um ponteiro para uma struct

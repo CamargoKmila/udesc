@@ -1,0 +1,1 @@
+// crie um programa que crie structs alinhadas utilizando typedef

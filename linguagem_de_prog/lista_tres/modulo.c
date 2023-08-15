@@ -19,13 +19,21 @@ int main() {
   scanf("%s", s1);
   printf("Digite valores para S2\n");
   scanf("%s", s2);
+  int opcao;
 
   do{
+
+    printf("SELECIONE UMA OPÇÃO:\n");
+    printf("1- ADD 10 CHAR S2 S1\n");
+    printf("2- COMPRIMENTO DE S1\n");
+    printf("3- \n");
+    printf("4- SAIR\n");
+    scanf("%d", &opcao);
    
     strncat(s1, s2, 10);
     printf("S1 conta com %s caracteres.\n", s1);
 
-  }while(1);
+  }while(opcao != 4);
 
   return 0;    
 }
